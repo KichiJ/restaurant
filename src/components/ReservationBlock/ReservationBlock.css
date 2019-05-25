@@ -1,0 +1,17 @@
+.reservation__block__title {
+  font-size: 3rem;
+  font-family: "Cookie", cursive;
+}
+
+.reservation__block__description {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.reservation__block__button {
+  font-size: 1rem;
+  background: none;
+  border: 1px solid var(--lightgrey);
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+}

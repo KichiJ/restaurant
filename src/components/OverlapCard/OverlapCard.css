@@ -1,0 +1,19 @@
+.overlap__card__container {
+  height: 30rem;
+  border: 1px dashed black;
+  background-color: var(--lightgrey);
+  position: relative;
+}
+
+.overlap__card {
+  width: 80%;
+  height: 130%;
+  border: 1px dashed black;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 5;
+}

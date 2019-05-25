@@ -1,0 +1,10 @@
+.about__title {
+  font-size: 3rem;
+  font-family: "Cookie", cursive;
+}
+
+.about__description {
+  font-size: 0.9rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
