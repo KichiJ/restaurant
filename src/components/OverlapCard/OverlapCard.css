@@ -1,7 +1,8 @@
 .overlap__card__container {
-  height: 90vh;
+  height: 60vh;
   background-color: var(--lightgrey);
   position: relative;
+  min-height: 25rem;
 }
 
 .overlap__card {
