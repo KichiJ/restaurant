@@ -5,6 +5,7 @@ import OverlapCard from "../OverlapCard/OverlapCard";
 import ReservationBlock from "../ReservationBlock/ReservationBlock";
 import AboutBlock from "../AboutBlock/AboutBlock";
 import FoodDescBlock from "../FoodDescBlock/FoodDescBlock";
+// Images
 import header from "../../assets/images/photo-1523905330026-b8bd1f5f320e.jpeg";
 import counter from "../../assets/images/photo-1470256699805-a29e1b58598a.jpeg";
 import entrance from "../../assets/images/photo-1527289810489-1c2e6f5bb929.jpeg";
@@ -13,6 +14,8 @@ import sweetSourPork from "../../assets/images/sweetsour.jpg";
 import kungPaoChicken from "../../assets/images/kung-pao-chicken2.jpg";
 import maPoTofu from "../../assets/images/Mapo-Tofu.jpg";
 import wontons from "../../assets/images/red-oil-wonton.jpg";
+import cover2 from "../../assets/images/asian-food.jpeg";
+import Menu from "../Menu/Menu";
 
 function Home() {
   return (
@@ -37,7 +40,7 @@ function Home() {
           <FoodDescBlock
             name="Sweet and Sour Pork"
             description="It consists of large thinly sliced pieces of chicken pork in potato starch batter, deep-fried twice until crispy."
-            price="from $20.99"
+            price="from 20.99€"
             column="1/2"
             row="1/2"
           />
@@ -49,7 +52,7 @@ function Home() {
           <FoodDescBlock
             name="Kung Pao Chicken"
             description="The major ingredients are diced chicken, dried chili, and fried peanuts."
-            price="from $15.99"
+            price="from 15.99€"
             column="2/3"
             row="2/3"
           />
@@ -61,7 +64,7 @@ function Home() {
           <FoodDescBlock
             name="Ma Po Tofu"
             description="Ma (麻) describes a spicy and hot taste which comes from pepper powder, one kind of condiment usually used in Chuan Cuisine."
-            price="from $18.99"
+            price="from 18.99€"
             column="3/4"
             row="1/2"
           />
@@ -69,13 +72,15 @@ function Home() {
           <FoodDescBlock
             name="Wontons"
             description="Wontons are commonly boiled and served in soup or sometimes deep-fried. The filling of wontons can be minced pork or diced shrimp."
-            price="from $16.99"
+            price="from 16.99€"
             column="4/5"
             row="2/3"
           />
           <img src={wontons} alt="wontons" className="img__c4__r1" />
         </div>
       </OverlapCard>
+      <ImgCover img={cover2} />
+      <Menu />
     </div>
   );
 }

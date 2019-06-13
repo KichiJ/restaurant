@@ -67,3 +67,10 @@
     transform: translate(0);
   }
 }
+
+.fromBottom {
+  animation-name: moveInBottom;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  visibility: visible !important;
+}
